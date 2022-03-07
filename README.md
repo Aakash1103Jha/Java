@@ -10,4 +10,4 @@ Right now, the ones that I have added here might seem quite basic and trivial, b
 sometimes you gotta run before you learn how to walk.
 ```
 
-#### Thanks for stopping by.
+### Thanks for stopping by.
