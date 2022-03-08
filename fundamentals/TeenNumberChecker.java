@@ -1,3 +1,5 @@
+package fundamentals;
+
 /**
  * We'll say that a number is "teen" if it is in the range 13 -19 (inclusive).
  * 

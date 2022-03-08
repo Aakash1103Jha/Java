@@ -1,3 +1,5 @@
+package fundamentals;
+
 /**
  * Write a method called isOdd with an int parameter and call it number. The
  * method needs to return a boolean.

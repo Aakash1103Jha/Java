@@ -1,3 +1,5 @@
+package fundamentals;
+
 /**
  * Create a for statement using a range of numbers from 1 to 1000 (inclusive)
  * Sum all the numbers that can be divided by both 3 and 5

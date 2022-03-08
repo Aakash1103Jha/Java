@@ -1,3 +1,5 @@
+package fundamentals;
+
 /**
  * Write a method hasEqualSum with 3 parameters of type int.
  * 

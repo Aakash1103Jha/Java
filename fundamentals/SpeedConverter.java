@@ -1,3 +1,5 @@
+package fundamentals;
+
 import java.lang.Math;
 
 public class SpeedConverter {
