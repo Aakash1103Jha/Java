@@ -4,20 +4,22 @@ public class SimpleCalculator {
     private double firstNumber;
     private double secondNumber;
 
+    public SimpleCalculator() {
+        this(10, 5);
+        System.out.println("Empty constructor");
+    }
+
+    public SimpleCalculator(double firstNumber, double secondNumber) {
+        this.firstNumber = firstNumber;
+        this.secondNumber = secondNumber;
+    }
+
     public double getFirstNumber() {
         return this.firstNumber;
     }
 
-    public void setFirstNumber(double firstNumber) {
-        this.firstNumber = firstNumber;
-    }
-
     public double getSecondNumber() {
         return this.secondNumber;
-    }
-
-    public void setSecondNumber(double secondNumber) {
-        this.secondNumber = secondNumber;
     }
 
     public double getAdditionResult() {

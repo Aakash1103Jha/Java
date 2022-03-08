@@ -5,32 +5,31 @@ public class Person {
     private String lastName;
     private int age;
 
-    public String getFirstName() {
-        return this.firstName;
+    public Person() {
+        this("Itachi", "Uchiha", 25);
+        System.out.println("Created new object using an empty constructor");
     }
 
-    public void setFirstName(String firstName) {
+    public Person(String firstName, String lastName, int age) {
         this.firstName = firstName;
+        this.lastName = lastName;
+        if (age > 100 || age < 0) {
+            this.age = 0;
+        } else {
+            this.age = age;
+        }
+    }
+
+    public String getFirstName() {
+        return this.firstName;
     }
 
     public String getLastName() {
         return this.lastName;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
     public int getAge() {
         return this.age;
-    }
-
-    public void setAge(int age) {
-        if (age > 100 || age < 0) {
-            this.age = 0;
-        } else {
-            this.age = age;
-        }
     }
 
     public boolean isTeen() {
